@@ -59,7 +59,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    transition: background-color 2s, border-radius 2s, opacity 1s, box-shadow 1s;
+    background-color: #aa7604;
 }
 
 a img.icon {
@@ -180,4 +181,38 @@ footer {
     bottom: 2%;
     font-family: 'Climate Crisis', cursive;
     color: #000000;
+}
+
+.player {
+    background-color: #bc6c25;
+    width: 320px;
+    height: 320px;
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    /* gap: 5px; */
+    border-radius: 2rem;
+    box-shadow: 0 0 15px 5px rgba(66, 66, 66, 0.5);
+    position: absolute;
+    border: 1px #000000;
+    padding: 2%;
+    border-radius: 8%;
+    box-shadow: 0 0 20px 5px #bc6c25;
+    top: 40%;
+    left: 50%;
+    width: 50%;
+}
+
+
+
+.song {
+    border-bottom: 1px solid black;
+    /* border-right: 3px solid black; */
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace, cursive;
+    color: black;
 }

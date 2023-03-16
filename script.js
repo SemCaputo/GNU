@@ -8,3 +8,16 @@
 //     });
 // };
 // enhance();
+
+const cells = document.querySelectorAll('.cell');
+
+const turn = cells.forEach((cell, index) => {
+    cell.addEventListener("click", () => {
+        playSong(index);
+        console.log(index)
+    });
+});
+
+function playSong(index) {
+
+}
