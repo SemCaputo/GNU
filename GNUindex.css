@@ -80,24 +80,26 @@ a img.icon {
     position: absolute;
     /* border: 1px #000000;
     padding: 2%;
-    border-radius: 2%;
-    box-shadow: 0 0 5px #bc6c25; */
-    top: 50%;
+    border-radius: 8%; */
+    /* box-shadow: 0 0 20px 5px #bc6c25; */
+    top: 40%;
     left: 10%;
     width: 50%;
 }
+
 
 
 .tracks2 {
     position: absolute;
     /* border: 1px #000000;
     padding: 2%;
-    border-radius: 2%;
-    box-shadow: 0 0 5px #bc6c25; */
-    top: 30%;
-    left: 10%;
+    border-radius: 8%; */
+    /* box-shadow: 0 0 20px 5px #bc6c25; */
+    top: 20%;
+    left: 60%;
     width: 50%;
 }
+
 
 .tracks3 {
     position: absolute;
